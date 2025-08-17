@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Spencer R. Keyser",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "srk252@cornell.edu",
+    "phone": "(954) 707-3926",
+    "url": "https://skeyser.github.io/",
+    "summary": "I am an ecologist focusing on the drivers of biodiversity across large-scales.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "1630 Linden Drive",
+      "postalCode": "53705",
+      "city": "Madison",
       "countryCode": "US",
-      "region": "California"
+      "region": "Wisconsin"
     },
     "profiles": [
       {
@@ -24,11 +24,11 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology, Cornell University",
+      "position": "Postdoctoral Research Assistant",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
+      "startDate": "2024-09-01",
+      "endDate": "2026-09-01",
       "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
       "highlights": ["Relativity"]
     }
@@ -47,24 +47,46 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
+      "institution": "University of Wisconsin-Madison, Madison, Wisconsin",
+      "location": "Madison, WI",
       "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "area": "Wildlife Ecology",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2020-01-01",
+      "endDate": "2024-08-30",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ""
+    },
+    {
+      "institution": "University of Texas Marine Science Institute, Port Aransas, Texas",
+      "location": "Port Aransas, TX",
+      "url": "https://www.uzh.ch/",
+      "area": "Marine Science",
+      "studyType": "M.S.",
+      "startDate": "2017-08-30",
+      "endDate": "2019-12-30",
+      "score": "10",
+      "courses": ""
+    },
+    {
+      "institution": "University of Wisconsin-Madison, Madison, Wisconsin",
+      "location": "Madison, WI",
+      "url": "https://www.uzh.ch/",
+      "area": "Wildlife Ecology",
+      "studyType": "B.S.",
+      "startDate": "2013-09-01",
+      "endDate": "2017-05-30",
+      "score": "10",
+      "courses": ""
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
+      "title": "NASA FINESST",
+      "date": "2023-05-01",
+      "awarder": "National Aeronautics and Atmospheric Administration",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": ""
     }
   ],
   "certificates": [
