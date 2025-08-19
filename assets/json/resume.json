@@ -50,7 +50,7 @@
       "courses": ""
     }
   ],
-   "professional-appointments": [
+   "work": [
     {
       "institution": "K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology, Cornell University",
       "position": "Postdoctoral Research Assistant",
@@ -59,7 +59,7 @@
       "endDate": "Present"
     }
   ],
-  "grants": [
+  "awards": [
     {
       "title": "NASA FINESST",
       "Date": "2023-05-01",
@@ -68,7 +68,7 @@
       "amount": "$100,000"
     }
   ],
-  "peer-reviewed-publications": [
+  "publications": [
     {
       "title": "Seasonality structures avian functional diversity and niche packing across North America.",
       "authors": "Keyser, S.R., Pauli, J.N., Fink, D., Radeloff, V.C., Pigot, A.L., B., Zuckerberg",
