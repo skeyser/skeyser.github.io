@@ -21,7 +21,16 @@
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <p class="presentation ml-1 ml-md-4">
-            {{ content.authors }}. ({{ content.date | date: "%B %Y" }}). 
+            {% assign authors = content.authors | split: ", " %}
+            {% for author in authors %}
+              {% if author contains "Keyser, S.R." %}
+                <strong>{{ author }}</strong>
+              {% else %}
+                {{ author }}
+              {% endif %}
+              {% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+            . ({{ content.date | date: "%B %Y" }}). 
             <span style="font-style: italic;">{{ content.title }}</span>. 
             <span class="conference">{{ content.conference }}</span>{% if content.type %}, {{ content.type }}{% endif %}. 
             {{ content.location }}.
