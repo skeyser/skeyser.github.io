@@ -23,3 +23,28 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.bibliography {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.journal {
+  font-weight: bold;
+}
+.doi {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.presentation {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.conference {
+  font-weight: bold;
+}
+.presentation-link {
+  color: #666;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}

@@ -15,6 +15,7 @@
       "region": "Wisconsin"
     }
   },
+
   "education": [
     {
       "institution": "University of Wisconsin-Madison, Madison, Wisconsin",
@@ -50,6 +51,7 @@
       "courses": ""
     }
   ],
+
    "work": [
     {
       "name": "K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology, Cornell University",
@@ -60,6 +62,7 @@
       "endDate": "Present"
     }
   ],
+
   "awards": [
     {
       "title": "NASA FINESST",
@@ -69,21 +72,29 @@
       "amount": "$100,000"
     }
   ],
+
   "publications": [
     {
-      "title": "Seasonality structures avian functional diversity and niche packing across North America.",
       "authors": "Keyser, S.R., Pauli, J.N., Fink, D., Radeloff, V.C., Pigot, A.L., B., Zuckerberg",
+      "title": "Seasonality structures avian functional diversity and niche packing across North America.",
       "journal": "Ecology Letters",
-      "Date": "2024",
+      "volumne": "27",
+      "issue": "10",
+      "pages": "e14521",
+      "releaseDate": "2024",
+      "doi": "10.1111/ele.14521",
       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14521"
     }
   ],
-  "presentations": [
-    {
-      "title": "Seasonal patterns and drivers of North American functional diversity.",
-      "organization": "American Ornithological Society-Society for Canadian Ornthologists Joint Conference",
-      "location": "London, Ontario",
-      "Date": "August, 2023"
-    }
-  ]
+
+ "presentations": [
+     {
+       "authors": "Keyser, S.R., Pauli, J.N., Fink, D., Radeloff, V.C., Pigot, A.L., B., Zuckerberg",
+       "title": "Seasonal patterns and drivers of North American functional diversity",
+       "conference": "American Ornithological Society-Society for Canadian Ornthologists Joint Conference",
+       "type": "Oral Presentation",
+       "location": "London, Ontario",
+       "date": "2023-08"
+     }
+ ]
 }
