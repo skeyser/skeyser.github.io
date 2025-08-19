@@ -2,96 +2,64 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Spencer R. Keyser
+    - name: Email
+      value: srk252@cornell.edu
+    - name: Location
+      value: Madison, Wisconsin
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Wildlife Ecology
+      institution: University of Wisconsin-Madison, Madison, Wisconsin
+      year: 2020-2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Currently pursuing doctorate in Wildlife Ecology
 
-- title: Experience
+    - title: Masters in Marine Science
+      institution: University of Texas Marine Science Institute, Port Aransas, Texas
+      year: 2017-2019
+      description:
+        - Completed M.S. in Marine Science
+
+    - title: BS in Wildlife Ecology
+      institution: University of Wisconsin-Madison, Madison, Wisconsin
+      year: 2013-2017
+      description:
+        - Completed B.S. in Wildlife Ecology
+
+- title: Professional Appointments
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Research Assistant
+      institution: K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology, Cornell University
+      year: 2024-present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Conducting postdoctoral research in bioacoustics
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Grants and Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - "NASA FINESST ($100,000) - National Aeronautics and Atmospheric Administration"
 
-- title: Academic Interests
+- title: Publications
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Peer-reviewed Publications
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - "Keyser, S.R., Pauli, J.N., Fink, D., Radeloff, V.C., Pigot, A.L., B., Zuckerberg (2024). Seasonality structures avian functional diversity and niche packing across North America. Ecology Letters."
 
-- title: Other Interests
+- title: Presentations
+  type: nested_list
+  contents:
+    - title: Contributed Presentations (Oral)
+      items:
+        - "Seasonal patterns and drivers of North American functional diversity. American Ornithological Society-Society for Canadian Ornthologists Joint Conference, London, Ontario (2023)"
+
+- title: Professional Training
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Introduction to Applied Bayesian Statistics, University of Texas at Austin (2018)
