@@ -66,10 +66,22 @@
   "awards": [
     {
       "title": "NASA FINESST",
-      "Date": "2023-05-01",
+      "date": "2023",
       "awarder": "National Aeronautics and Atmospheric Administration",
       "url": "https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7b2AAB44BB-6DFB-C42E-315A-DC2D70683A9D%7d&path=&method=init",
       "amount": "$100,000"
+    },
+    {
+      "title": "Francis M. Peacock Scholarship for Native Bird Habitat",
+      "date": "2018",
+      "awarder": "Garden Club of America",
+      "amount": "$5,000"
+    },
+    {
+      "title": "Conservation Research Award",
+      "date": "2018",
+      "awarder": "Coastal Bend Audubon Society",
+      "amount": "$500"
     }
   ],
 
@@ -84,10 +96,87 @@
       "releaseDate": "2024",
       "doi": "10.1111/ele.14521",
       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14521"
+    },
+    {
+      "authors": "Keyser, S.R., Fink, D., Gudex-Cross, D., Radeloff, V.C., Pauli, J.N., B., Zuckerberg",
+      "title": "Snow cover dynamics: An overlooked yet important feature of overwinter bird occurrence and abundance across the United States.",
+      "journal": "Ecography",
+      "pages": "e06378",
+      "releaseDate": "2022",
+      "doi": "10.1111/ecog.06378",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ecog.06378"
+    },
+    {
+      "authors": "Gilbert N. A., McGinn K., Nunes L., Shipley A., Bernath-Plaisted J., Clare J., Murphy P., Keyser S. R., Thompson K., Maresh Nelson S., Cohen J., Widick I., Bartel S., Orrock J., and B. Zuckerberg",
+      "title": "Diel patterns as an emerging means to explore ecological processes.",
+      "journal": "Trends in Ecology and Evolution",
+      "pages": "S0169534722002750",
+      "releaseDate": "2022",
+      "doi": "10.1016/j.tree.2022.10.008",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0169534722002750"
+    },
+    {
+      "authors": "Oke T., Zhang S., Keyser S. R., and L. A. Yeager",
+      "title": "Sea-surface temperature anomalies mediate changes in fish richness and abundance in Atlantic and Gulf of Mexico estuaries.",
+      "journal": "Journal of Biogeography",
+      "volumne": "00",
+      "pages": "1-9",
+      "releaseDate": "2022",
+      "doi": "10.1111/jbi.14451",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.14451"
+    },
+    {
+      "authors": "Gudex-Cross D., Zhu L., Keyser S. R., Zuckerberg B., Pauli J. N., and V. C. Radeloff",
+      "title": "Winter conditions structure extratropical patterns of species richness of amphibians, birds, and mammals globally.",
+      "journal": "Global Ecology and Biogeography",
+      "volumne": "00",
+      "pages": "1-15",
+      "releaseDate": "2022",
+      "doi": "10.1111/geb.13511",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13511"
+    },
+    {
+      "authors": "Gudex-Cross D., Keyser S. R., Zuckerberg B., Fink D., Pauli J. N., and V. Radeloff",
+      "title": "Winter Habitat Indices (WHIs) for the contiguous US and their relationship with winter bird diversity.",
+      "journal": "Remote Sensing of Environment",
+      "volumne": "225",
+      "pages": "112309",
+      "releaseDate": "2021",
+      "doi": "10.1016/j.rse.2021.112309",
+      "url": "http://www.sciencedirect.com/science/article/pii/S0034425721000274"
+    },
+    {
+      "authors": "",
+      "title": " Are habitat fragmentation effects stronger in marine systems? A review and meta-analysis.",
+      "journal": "Current Landscape Ecology Reports",
+      "volumne": "5",
+      "pages": "58-67",
+      "releaseDate": "2020",
+      "doi": "10.1007/s40823-020-00053-w",
+      "url": "http://link.springer.com/10.1007/s40823-020-00053-w"
+    },
+    {
+      "authors": "Biggs C. R., Yeager L. A. Bolser D. G., Bonsell, C., Dichiera A. M., Hou Z., Keyser S. R., Khursigara A. J., Lu K., Muth A., Negrete B., and B. Erisman",
+      "title": "Does functional redundancy affect ecological stability and resilience? A review and meta-analysis.",
+      "journal": "Ecosphere",
+      "volumne": "11",
+      "issue": "7",
+      "pages": "e03184",
+      "releaseDate": "2020",
+      "doi": "10.1002/ecs2.3184",
+      "url": "https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.3184"
     }
   ],
 
  "presentations": [
+     {
+       "authors": "Keyser, S.R., Peery, M. Z., Kramer, A., Winiarski, J., C. M., Wood",
+       "title": "Investigating the drivers of beta-diversity across the Sierra Nevada, CA",
+       "conference": "American Ornithological Society",
+       "type": "Oral Presentation",
+       "location": "St. Louis, Missouri",
+       "date": "2025-08"
+     },
      {
        "authors": "Keyser, S.R., Pauli, J.N., Fink, D., Radeloff, V.C., Pigot, A.L., B., Zuckerberg",
        "title": "Seasonal patterns and drivers of North American functional diversity",
@@ -95,6 +184,53 @@
        "type": "Oral Presentation",
        "location": "London, Ontario",
        "date": "2023-08"
-     }
+     },
+     {
+       "authors": "Zuckerberg, B., Keyser, S. R., Gudex-Cross, D., Radeloff, V.C., Fink, D., J.N., Pauli",
+       "title": "Applying Sustainable Development Goals to the conservation of winter environments and cold-adapted species in a warming world.",
+       "conference": "NASA Biodiversity and Ecological Forecasting Meeting",
+       "type": "Oral Presentation",
+       "location": "College Park, Maryland",
+       "date": "2022-09"
+     },
+     {
+       "authors": "Gudex-Cross, D., Keyser, S. R., Zuckerberg, B., Fink, D., V. C., Radeloff",
+       "title": "Winter Habitat Indices (WHIs) for the contiguous US and their relationship with winter bird biodiversity.",
+       "conference": "Ecological Society of America annual meeting",
+       "type": "Oral Presentation",
+       "date": "2020-08"
+     },
+     {
+       "authors": "Keyser S. R., J. Cruz, C. Giri, and L. A. Yeager",
+       "title": "“Impacts of regional climate change and climate-mediated vegetation shifts on coastal avian community dynamics.",
+       "conference": "Ecological Society of America annual meeting",
+       "type": "Oral Presentation",
+       "location": "Louisville, Kentucky",
+       "date": "2019-08"
+     },
+     {
+       "authors": "Yeager, L. A., Estrada, J., Holt, K., Keyser, S. R., T., Oke",
+       "title": "Are effects of habitat fragmentation stronger in marine systems?",
+       "conference": "Ecological Society of America annual meeting",
+       "type": "Oral Presentation",
+       "location": "Louisville, Kentucky",
+       "date": "2019-08"
+     },
+     {
+       "authors": "Keyser, S.R. and L. A., Yeager",
+       "title": "Impacts of climate change on coastal avian biodiversity.",
+       "conference": "Graduate Climate Conference",
+       "type": "Oral Presentation",
+       "location": "Seattle, Washington",
+       "date": "2018-11"
+     },
+     {
+      "authors": "Allstadt A., Caraco T., Korniss G., and S. R. Keyser",
+      "title": "Kinetic roughening theory predicts properties of ecological fronts in a variety of systems and spatial scales.",
+      "conference": "Ecological Society of America annual meeting",
+      "type": "Oral Presentation",
+      "location": "Baltimore, Maryland",
+      "date": "2015-08"
+     }   
  ]
 }
