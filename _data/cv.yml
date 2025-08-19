@@ -14,20 +14,14 @@
     - title: PhD in Wildlife Ecology
       institution: University of Wisconsin-Madison, Madison, Wisconsin
       year: 2020-2024
-      description:
-        - Currently pursuing doctorate in Wildlife Ecology
 
     - title: Masters in Marine Science
       institution: University of Texas Marine Science Institute, Port Aransas, Texas
       year: 2017-2019
-      description:
-        - Completed M.S. in Marine Science
 
     - title: BS in Wildlife Ecology
       institution: University of Wisconsin-Madison, Madison, Wisconsin
       year: 2013-2017
-      description:
-        - Completed B.S. in Wildlife Ecology
 
 - title: Professional Appointments
   type: time_table
@@ -35,8 +29,6 @@
     - title: Postdoctoral Research Assistant
       institution: K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology, Cornell University
       year: 2024-present
-      description:
-        - Conducting postdoctoral research in bioacoustics
 
 - title: Grants and Awards
   type: time_table

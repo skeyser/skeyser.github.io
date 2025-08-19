@@ -639,8 +639,8 @@ jekyll_get_json:
 jsonresume:
   - basics
   - education
-  - professional appointments
+  - professional-appointments
   - grants
-  - peer-reviewed publications
-  - contributed presentations (oral)
-  - professional training
+  - peer-reviewed-publications
+  - contributed-presentations-oral
+  - professional-training
