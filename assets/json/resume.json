@@ -52,8 +52,9 @@
   ],
    "work": [
     {
-      "institution": "K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology, Cornell University",
+      "name": "K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology, Cornell University",
       "position": "Postdoctoral Research Assistant",
+      "location": "Ithaca, NY",
       "url": "https://www.birds.cornell.edu/ccb/",
       "startDate": "2024-09-01",
       "endDate": "Present"
@@ -77,20 +78,12 @@
       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14521"
     }
   ],
-  "contributed-presentations-oral": [
+  "presentations": [
     {
       "title": "Seasonal patterns and drivers of North American functional diversity.",
       "organization": "American Ornithological Society-Society for Canadian Ornthologists Joint Conference",
       "location": "London, Ontario",
       "Date": "August, 2023"
-    }
-  ],
-  "professional-training": [
-    {
-      "name": "Introduction to Applies Bayesian Statistics",
-      "date": "2018",
-      "issuer": "University of Texas at Austin",
-      "icon": "fa-solid fa-location-dot"
     }
   ]
 }
