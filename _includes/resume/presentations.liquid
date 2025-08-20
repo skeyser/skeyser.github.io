@@ -1,3 +1,4 @@
+{% assign my_name_variants = "Keyser, S.R.|Keyser, S. R.|S.R. Keyser|S. R. Keyser|Spencer R. Keyser|Spencer Keyser" | split: "|" %}
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% assign presentations = data[1] | sort: 'date' | reverse %}
   {% for content in presentations %}
@@ -23,7 +24,15 @@
           <p class="presentation ml-1 ml-md-4">
             {% assign authors = content.authors | split: ", " %}
             {% for author in authors %}
-              {% if author contains "Keyser, S.R." %}
+              {% assign should_bold = false %}
+              {% for variant in my_name_variants %}
+                {% if author contains variant %}
+                  {% assign should_bold = true %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+              
+              {% if should_bold %}
                 <strong>{{ author }}</strong>
               {% else %}
                 {{ author }}
