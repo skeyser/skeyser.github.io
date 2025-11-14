@@ -4,14 +4,14 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+  },{id: "nav-research",
+          title: "Research",
+          description: "My major research themes.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -24,8 +24,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-cv",
-          title: "cv",
-          description: "Current Curriculum Vitae for Spencer R. Keyser.",
+          title: "CV",
+          description: "Abbreviated CV for Spencer R. Keyser. Full CV available for download on the top-right of this page.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -420,8 +420,8 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-dynamic-diversity",
-          title: 'Dynamic Diversity',
-          description: "a project that redirects to another website",
+          title: 'Dynamic diversity',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{
