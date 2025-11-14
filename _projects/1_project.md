@@ -2,7 +2,7 @@
 layout: page
 title: Biodiversity in a changing world
 description:
-img: assets/img/12.jpg
+img: assets/img/Biodiv_Change_Figs/Sierra_Bioacoustics.png
 importance: 1
 category: work
 related_publications: true
