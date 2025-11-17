@@ -1,0 +1,43 @@
+---
+layout: page
+title: Research Overview
+permalink: /projects-all/
+description:
+nav: true
+nav_order: 3
+---
+
+{% assign sorted_projects = site.projects | sort: "importance" %}
+{% for project in sorted_projects %}
+<div class="research-block{% if forloop.index0 modulo 2 == 1 %} reverse{% endif %}">
+  {% if project.img %}
+    <div class="research-img">
+      <img src="{{ site.baseurl }}/{{ project.img }}" alt="{{ project.title }}">
+    </div>
+  {% endif %}
+  <div class="research-text">
+    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+    {{ project.description | markdownify }}
+  </div>
+</div>
+<hr>
+{% endfor %}
+
+## Drivers of avian turnover across the Sierra Nevada
+![Species-occupancy responses to fire severity]({{ site.baseurl }}/assets/img/Biodiv_Change_Figs/Fig3.jpg){:.float-right} 
+The sheer amount of species on this planet is one of the most remarkable aspects of life on Earth and biodiversity is critical for sustaining a future on this planet. Whether it be the insects that pollinate commercially important crops or the birds that maintain the diversity of tropical forests, we live in an interconnected world. The globalization and industrialization of human society has ushered in a new geological epoch, the anthropocene. A signature of the anthropocene, is that our footprint overlaps more and more with the natural systems around us. Whether it be human-driven climate change, agricultural intensification, pollution, or harvesting pressure species are facing a diverse set of threats. A major theme of my research program is understanding how changing environments ultimately drive changes in animal communities. To answer this broad question, I integrate data from participatory science projects, satellite remote sensing products, and large-scale wildlife monitoring projects to assess how multiple aspects of biodiversity change over both space and time.
+
+## Winter-informed species distribution models
+![Species snow-association gradient]({{ site.baseurl }}/assets/img/Winter_Ecology_Figs/Ecog_Fig3_RevisedR2.jpg){:.float-right} 
+Snow covers approximately 49% of all land in the North Hemisphere at its maximum extent, but ongoing warming has led to the loss of nearly 150,000 km<sup>2</sup> every decade. Snow is habitat for winter-adapted species. Various organisms rely on snow for thermal refugia, crypsis, foraging habitat, and niche partitioning. To assess the importance of snow cover in structuring species distributions my work investigates the relative importance of winter climate and seasonal snow cover in winter bird distributions using the world's largest participatory science program, [eBird](https://ebird.org/home). We have demonstrated the importance of snow cover for modelling species distributions by integrating annual, remotely sensed indices of seasonal snow cover (Gudex-Cross et al., 2022), with >1 million eBird records for 128 species that overwinter in snow covered regions of the United States (Keyser et al., 2022).
+
+## Warming winters threatens a keystone carnivore
+![Regional projections for marten meta-population]({{ site.baseurl }}/assets/img/Winter_Ecology_Figs/MartenDemogPatch_DispScen.jpg){:.float-left} 
+Climate change is and is expected to continue to reorganize ecological communities. The mechanisms for species sensitivity to warming are multi-faceted, but ultimately impact demographic rates for a population exposed to change. For species reliant on winter climate, a degrading cryosphere is expected to have adverse effects on population vital rates prompting range contractions and increasing vulnerability to population collapse. The American marten (Martes americana) is a small-bodied, forest carnivore that relies on seasonal snow cover for niche partitioning, thermal refugia, and foraging. Yet, future declines in snow cover threaten the persistence of this species at its southern range boundary. In collaboration with colleagues at the Department of Forest and Wildlife Ecology and Nelson Institute for Environmental Studies at UW-Madison we are evaluating the expected persistence of the American marten in a recovery network in the Great Lakes region under future climate change. Using individual-based models coupled with demographic rates from known-fate survival studies and future snow loss in the region we are investigating the relative roles of dispersal, climate scenarios, and demography for the persistence of marten in a meta-population framework.
+
+## Spatial conservation planning for cold-adapted biodiversity
+Deciding where to spend limited conservation dollars in an effort to maximize conservation value is a critical issue for conservationists. Concentration of protected areas in regions of low agricultural value, scenic beauty, and remoteness often creates a mismatch between protection and biodiversity value. Cold-adapted species are often concentrated in regions that are distinct from traditional species richness hotspots, but comprise a group of climate sensitive species. Nevertheless, biases in the placement of protected areas may inadvertently benefit these species. To assess conservation gaps for cold-adapted species across North America I am using large biodiversity databases and participatory science programs to map multiple facets of cold-adapted biodiversity. By integrating these data sources into emerging remotely sensed information on winter habitat we are gaining insights into the patterns of cold-adapted taxonomic, phylogenetic, and functional diversity across the United States. By leveraging high-resolution data on land acquisition costs and protected areas we area investigating important multi-dimensional conservation priorities for cold-adapted biodiversity. 
+
+## Seasonal turnover in bird diversity
+![Seasonal diversity North American birds]({{ site.baseurl }}/assets/img/DynamicDiv_Figs/Figure2.png){:.float-right} 
+Diversity is seldom static in space and time. While much work has been done on the potential drivers of species richness across space we lack corrollary information on the dynamics of diversity across both space and time. Seasonal shifts in climate and resource availability can resemble large-scale changes in these conditions across vast geographic distances. A third major theme of my work is to explore the patterns and responses of biodiversity to spatiotemporal variability, such as seasonality. Approximately 20% of birds migrate, with migrants often breeding in highly seasonal enviornments to take advantage of seasonal resources and alleviate competition. Migration presents a fascinating opportunity to ask questions about how spatiotemporal patterns in resource availability and climate variability impact the dynamics of taxonomic, phylogenetic, and functional diversity. Using crowd-sourced avian observations across North America from project eBird, coupled with remotely sensed and daily gridded climate data we have begun to disentangle the role of productivity and climate in structuring community composition across seasonal scales. So far, our work highlights the role of predictably, variable environments in promoting seasonal turnover of bird morphology. Interestingly, we find that while niche packing is the dominant process contributing to differences in species richness across seasons, niche expansion become increasingly prevalent in more seasonal enviornments. Climate change is disrupting seasonal processes and our work suggests that seasonal disruption could produce downstream consequences for ecosystems stability, resilience, and functioning.
