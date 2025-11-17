@@ -86,3 +86,51 @@ img.float-left {
     padding: 2rem;    /* more room for text */
     font-size: 1.1rem;
 }
+
+.page-content img.float-right {
+  float: right;
+  margin: 0 0 1em 1em;
+  width: 350px;
+}
+.page-content img.float-left {
+  float: left;
+  margin: 0 1em 1em 0;
+  width: 350px;
+}
+
+.research-block {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.research-block.reverse {
+  flex-direction: row-reverse;
+}
+
+.research-img {
+  flex: 0 0 40%;
+}
+
+.research-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.research-text {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .research-block {
+    flex-direction: column;
+  }
+  .research-block.reverse {
+    flex-direction: column;
+  }
+  .research-img {
+    flex: 0 0 auto;
+    margin-bottom: 1rem;
+  }
+}
