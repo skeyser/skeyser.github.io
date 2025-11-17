@@ -414,8 +414,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-winter-ecology",
-          title: 'Winter Ecology',
+            },},{id: "projects-winter-biodiversity-in-a-warming-world",
+          title: 'Winter biodiversity in a warming world',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
