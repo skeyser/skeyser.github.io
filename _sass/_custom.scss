@@ -24,3 +24,48 @@
   font-size: 0.9rem;
   text-decoration: underline;
 }
+
+/* ===========================
+   Research cards - standardize layout
+   =========================== */
+.project-card img {
+    object-fit: cover;      /* crop to fill the box without distortion */
+    height: 200px;          /* fixed thumbnail height */
+    width: 100%;            /* fill card width */
+}
+
+/* Keep labels consistent placement */
+.project-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100px;      /* reserve space for text */
+    text-align: center;     /* center align text */
+}
+
+/* ===========================
+   Floated images in posts
+   =========================== */
+img.float-right {
+    float: right;
+    margin: 0 0 1em 1em;
+    width: 350px;
+}
+
+img.float-left {
+    float: left;
+    margin: 0 1em 1em 0;
+    width: 350px;
+}
+
+/* Optional: ensure wrapping doesn't break on smaller screens */
+@media (max-width: 768px) {
+    img.float-right,
+    img.float-left {
+        float: none;
+        display: block;
+        margin: 1em auto;
+        width: 100%;
+        max-width: 500px; /* keeps them from being huge */
+    }
+}
