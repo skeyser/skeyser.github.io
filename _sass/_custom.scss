@@ -28,14 +28,14 @@
 /* ===========================
    Research cards - standardize layout
    =========================== */
-.project-card img {
+.card-img-top {
     object-fit: cover;      /* crop to fill the box without distortion */
     height: 200px;          /* fixed thumbnail height */
     width: 100%;            /* fill card width */
 }
 
 /* Keep labels consistent placement */
-.project-card .card-body {
+.card-body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
