@@ -1,27 +1,11 @@
 ---
 layout: page
-title: Research Overview
-permalink: /projects-all/
-description:
+title: Research
+permalink: /projects-long/
+description: Past and ongoing research themes.
 nav: true
 nav_order: 3
 ---
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-{% for project in sorted_projects %}
-<div class="research-block{% if forloop.index0 modulo 2 == 1 %} reverse{% endif %}">
-  {% if project.img %}
-    <div class="research-img">
-      <img src="{{ site.baseurl }}/{{ project.img }}" alt="{{ project.title }}">
-    </div>
-  {% endif %}
-  <div class="research-text">
-    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-    {{ project.description | markdownify }}
-  </div>
-</div>
-<hr>
-{% endfor %}
 
 ## Drivers of avian turnover across the Sierra Nevada
 ![Species-occupancy responses to fire severity]({{ site.baseurl }}/assets/img/Biodiv_Change_Figs/Fig3.jpg){:.float-right} 
