@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Research
-permalink: /projects-cards/
+permalink: /projects/
 description: My major research themes.
-nav: true
+nav: false
 nav_order: 2
 display_categories:
 horizontal: true
