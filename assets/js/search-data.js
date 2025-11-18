@@ -14,7 +14,14 @@ ninja.data = [{
           description: "My major research themes.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/projects-cards/";
+          },
+        },{id: "nav-research",
+          title: "Research",
+          description: "Past and ongoing research themes.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects-long/";
           },
         },{id: "nav-publications",
           title: "Publications",
