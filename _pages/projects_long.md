@@ -5,12 +5,15 @@ permalink: /projects-long/
 description: Past and ongoing research themes.
 nav: true
 nav_order: 3
+toc:
+  sidebar: left
 ---
 
 # Biodiversity responses to fire, forest management, and climate change in the Sierra Nevada
 <figure class="float-right">
   <img src="{{ site.baseurl }}/assets/img/Biodiv_Change_Figs/Fig3.jpg"
-       alt="Species-occupancy responses to fire severity">
+       alt="Beta-diversity responses to fire severity"
+       style="width: 300px;">
   <figcaption>
     Relative role of environmental gradients across the Sierra Nevada.
   </figcaption>
