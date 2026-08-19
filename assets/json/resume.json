@@ -8,11 +8,11 @@
     "url": "https://skeyser.github.io/",
     "summary": "I am an ecologist focusing on the drivers of biodiversity across large-scales.",
     "location": {
-      "address": "1630 Linden Drive",
-      "postalCode": "53705",
-      "city": "Madison",
+      "address": "159 Sapsucker Woods Rd",
+      "postalCode": "14850",
+      "city": "Ithaca",
       "countryCode": "US",
-      "region": "Wisconsin"
+      "region": "New York"
     }
   },
 
@@ -54,12 +54,20 @@
 
    "work": [
     {
-      "name": "K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology, Cornell University",
+      "name": "Center for Engagement in Science and Nature, Cornell Lab of Ornithology, Cornell University",
+      "position": "Research Associate",
+      "location": "Ithaca, NY",
+      "url": "https://www.birds.cornell.edu/engagement-in-science-and-nature/",
+      "startDate": "2026-09-14",
+      "endDate": "Present"
+    },
+    {
+      "name": "Cornell K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology, Cornell University",
       "position": "Postdoctoral Research Assistant",
       "location": "Ithaca, NY",
       "url": "https://www.birds.cornell.edu/ccb/",
       "startDate": "2024-09-01",
-      "endDate": "Present"
+      "endDate": "2026-08-31"
     }
   ],
 
@@ -86,6 +94,28 @@
   ],
 
   "publications": [
+    {
+      "authors": "Keyser, S.R., Pauli, J.N., Radeloff, V.C., Fink, D., B., Zuckerberg",
+      "title": "Hotspots in Cold Climates: Mapping and Evaluating the Conservation of Winter Biodiversity Across the United States",
+      "journal": "Diversity and Distributions",
+      "volumne": "32",
+      "issue": "6",
+      "pages": "e70194",
+      "releaseDate": "2026",
+      "doi": "10.1111/ddi.70194",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ddi.70194"
+    },
+    {
+      "authors": "Bielski, L., Keyser, S.R., Peery, M.Z., C.M., Wood",
+      "title": "Warm temperature and severe fire drive a range contraction of an avian old-forest specialist in the Sierra Nevada, USA",
+      "journal": "Frontiers in Bird Science",
+      "volumne": "5",
+      "issue": "",
+      "pages": "1737313",
+      "releaseDate": "2026",
+      "doi": "10.3389/fbirs.2026.1737313",
+      "url": "https://www.frontiersin.org/journals/bird-science/articles/10.3389/fbirs.2026.1737313/full"
+    },
     {
       "authors": "Keyser, S.R., Pauli, J.N., Fink, D., Radeloff, V.C., Pigot, A.L., B., Zuckerberg",
       "title": "Seasonality structures avian functional diversity and niche packing across North America",
