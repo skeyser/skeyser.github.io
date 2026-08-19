@@ -29,62 +29,62 @@
    Research cards - standardize layout
    =========================== */
 .card-img-top {
-    object-fit: cover;      /* crop to fill the box without distortion */
-    height: 200px;          /* fixed thumbnail height */
-    width: 100%;            /* fill card width */
+  object-fit: cover; /* crop to fill the box without distortion */
+  height: 200px; /* fixed thumbnail height */
+  width: 100%; /* fill card width */
 }
 
 /* Keep labels consistent placement */
 .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    min-height: 100px;      /* reserve space for text */
-    text-align: center;     /* center align text */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 100px; /* reserve space for text */
+  text-align: center; /* center align text */
 }
 
 /* ===========================
    Floated images in posts
    =========================== */
 img.float-right {
-    float: right;
-    margin: 0 0 1em 1em;
-    width: 450px;
+  float: right;
+  margin: 0 0 1em 1em;
+  width: 450px;
 }
 
 img.float-left {
-    float: left;
-    margin: 0 1em 1em 0;
-    width: 450px;
+  float: left;
+  margin: 0 1em 1em 0;
+  width: 450px;
 }
 
 /* Optional: ensure wrapping doesn't break on smaller screens */
 @media (max-width: 768px) {
-    img.float-right,
-    img.float-left {
-        float: none;
-        display: block;
-        margin: 1em auto;
-        width: 100%;
-        max-width: 500px; /* keeps them from being huge */
-    }
+  img.float-right,
+  img.float-left {
+  float: none;
+  display: block;
+  margin: 1em auto;
+  width: 100%;
+  max-width: 500px; /* keeps them from being huge */
+  }
 }
 
 .projects .card-horizontal {
-    display: flex;
-    flex-direction: row;
-    min-height: 300px; /* taller */
+  display: flex;
+  flex-direction: row;
+  min-height: 300px; /* taller */
 }
 
 .projects .card-horizontal img {
-    width: 40%;       /* bigger image portion */
-    object-fit: cover;
+  width: 40%; /* bigger image portion */
+  object-fit: cover;
 }
 
 .projects .card-horizontal .card-body {
-    width: 60%;
-    padding: 2rem;    /* more room for text */
-    font-size: 1.1rem;
+  width: 60%;
+  padding: 2rem; /* more room for text */
+  font-size: 1.1rem;
 }
 
 .page-content img.float-right {

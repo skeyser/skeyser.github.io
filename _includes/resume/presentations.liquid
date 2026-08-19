@@ -5,10 +5,10 @@
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
-          {% if content.date %} 
-            {% assign date = content.date | split: '-' | first %} 
-          {% else %} 
-            {% assign date = '' %} 
+          {% if content.date %}
+            {% assign date = content.date | split: '-' | first %}
+          {% else %}
+            {% assign date = '' %}
           {% endif %}
           <table class="table-cv">
             <tbody>
@@ -31,7 +31,7 @@
                   {% break %}
                 {% endif %}
               {% endfor %}
-              
+
               {% if should_bold %}
                 <strong>{{ author }}</strong>
               {% else %}
@@ -39,9 +39,9 @@
               {% endif %}
               {% unless forloop.last %}, {% endunless %}
             {% endfor %}
-            . ({{ content.date | date: "%B %Y" }}). 
+            . ({{ content.date | date: "%B %Y" }}).
             <span style="font-style: italic;">{{ content.title }}</span>. 
-            <span class="conference">{{ content.conference }}</span>{% if content.type %}, {{ content.type }}{% endif %}. 
+            <span class="conference">{{ content.conference }}</span>{% if content.type %}, {{ content.type }}{% endif %}.
             {{ content.location }}.
             {% if content.url %}
               <br><a href="{{ content.url }}" class="presentation-link">Presentation Link</a>
