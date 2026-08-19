@@ -62,11 +62,11 @@ img.float-left {
 @media (max-width: 768px) {
   img.float-right,
   img.float-left {
-  float: none;
-  display: block;
-  margin: 1em auto;
-  width: 100%;
-  max-width: 500px; /* keeps them from being huge */
+    float: none;
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 500px; /* keeps them from being huge */
   }
 }
 

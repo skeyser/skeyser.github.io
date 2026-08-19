@@ -40,7 +40,7 @@
               {% unless forloop.last %}, {% endunless %}
             {% endfor %}
             . ({{ content.date | date: "%B %Y" }}).
-            <span style="font-style: italic;">{{ content.title }}</span>. 
+            <span style="font-style: italic;">{{ content.title }}</span>.
             <span class="conference">{{ content.conference }}</span>{% if content.type %}, {{ content.type }}{% endif %}.
             {{ content.location }}.
             {% if content.url %}
