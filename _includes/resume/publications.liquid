@@ -1,4 +1,4 @@
-{% assign my_name_variants = "Keyser, S.R.|Keyser, S. R.|S.R. Keyser|S. R. Keyser|Spencer R. Keyser|Spencer Keyser" | split: "|" %}
+{% assign my_name_variants = 'Keyser, S.R.|Keyser, S. R.|S.R. Keyser|S. R. Keyser|Spencer R. Keyser|Spencer Keyser' | split: '|' %}
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% assign publications = data[1] | sort: 'releaseDate' | reverse %}
   {% for content in publications %}
@@ -22,7 +22,7 @@
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <p class="bibliography ml-1 ml-md-4">
-            {% assign authors = content.authors | split: ", " %}
+            {% assign authors = content.authors | split: ', ' %}
             {% for author in authors %}
               {% assign should_bold = false %}
               {% for variant in my_name_variants %}
@@ -40,12 +40,13 @@
               {% unless forloop.last %}, {% endunless %}
             {% endfor %}
             . ({{ date }}).
-            <a href="{{ content.url }}"><span style="font-style: italic;">{{ content.title }}</span></a>.
-            <span class="journal">{{ content.journal }}</span>,
-            <span class="volume">{{ content.volume }}</span>{% if content.issue %}({{ content.issue }}){% endif %},
-            {{ content.pages }}.
+            <a href="{{ content.url }}"
+              ><span style="font-style: italic;">{{ content.title }}</span></a
+            >. <span class="journal">{{ content.journal }}</span>, <span class="volume">{{ content.volume }}</span>
+            {%- if content.issue %}({{ content.issue }}){% endif %}, {{ content.pages }}.
             {% if content.doi %}
-              <br><span class="doi">DOI: {{ content.doi }}</span>
+              <br>
+              <span class="doi">DOI: {{ content.doi }}</span>
             {% endif %}
           </p>
         </div>

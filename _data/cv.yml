@@ -26,9 +26,12 @@
 - title: Professional Appointments
   type: time_table
   contents:
+    - title: Research Associate
+      institution: Center for Engagement in Sceince and Nature, Cornell Lab of Ornithology, Cornell University
+      year: 2026-present
     - title: Postdoctoral Research Assistant
-      institution: K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology, Cornell University
-      year: 2024-present
+      institution: Cornell K. Lisa Yang Center for Conservation Bioacoustics, Cornell University
+      year: 2024-2026
 
 - title: Grants and Awards
   type: time_table
